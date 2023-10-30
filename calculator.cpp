@@ -3,7 +3,7 @@ using namespace std;
 
 // Function to add two numbers
 double addition(double num1, double num2) {
-    return num1 - num2;  //somethings not right here can you solve it
+    return num1 + num2;  //somethings not right here can you solve it
 }
 
 // Function to subtract two numbers
