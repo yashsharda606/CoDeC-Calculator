@@ -23,10 +23,6 @@ double division(double num1, double num2) {
 
 // Write the required Function for the important operation
     // Function to multiply two numbers
-double multiplication(double num1 , double num2)
-{
-    return num1*num2
-}
 
 int main() {
     char operation;
@@ -57,9 +53,6 @@ int main() {
             break;
         case '/':
             result = division(num1, num2);
-            break;
-        case 'x':
-            result = multiplication(num1 , num2);
             break;
         // Can add one more important mathematical operation over here
         default:
